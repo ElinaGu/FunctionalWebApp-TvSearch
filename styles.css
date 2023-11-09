@@ -1,0 +1,271 @@
+.hero-container {
+  background-image: url("HeroBackground.png");
+  align-self: stretch;
+  background-color: #bc1058;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.screenScene-logo {
+  font-family: "Titan One";
+  font-size: 48px;
+  color: white;
+}
+.TV-watching {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan {
+  margin-top: 24px;
+  font-family: "Fira Sans";
+  font-weight: 200;
+  letter-spacing: -0.05em;
+  font-size: 36px;
+  color: white;
+}
+
+.search-bar {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2c2c54;
+}
+.search-text {
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.search-box {
+  width: 528px;
+  height: 60px;
+  border-radius: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-size: 24px;
+  align-items: flex-start;
+}
+
+.search-button {
+  margin-left: 12px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #f9dc5c;
+  cursor: pointer;
+}
+
+.pre-search {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.search-container {
+  text-align: flex-start;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+.search-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 1px solid #f5f5f5;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.show-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 880px;
+}
+
+.show-title {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.show-rating {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.show-summary {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+.view-details-button {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #2c2c54;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.tvshow-header {
+  background-color: #a40e4c;
+  padding: 36px;
+  font-family: "Titan One";
+  font-size: 48px;
+  color: white;
+}
+
+.tvshow-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: none;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 72px;
+  margin-top: 72px;
+}
+
+.cast-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #2c2c54;
+  justify-content: center;
+  padding: 36px;
+  overflow-x: scroll;
+}
+
+.cast-title {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.cast-row {
+  display: flex;
+}
+
+.cast-column {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #414165;
+  margin-right: 24px;
+  padding-right: 24px;
+}
+
+.cast-image {
+  width: 105px;
+  height: 148px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.cast-name {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.character-name {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+.episode-container {
+  margin-top: 72px;
+  margin-bottom: 72px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.episode-title {
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.season-header {
+  background-color: #c2eabd;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  align-items: center;
+  font-family: "Fira Sans";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.episode-row {
+  display: flex;
+  margin-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.episode-image {
+  height: 140px;
+  width: 250px;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+.episode-information {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 880px;
+}
+
+.episode-name {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.episode-summary {
+  font-family: "Fira Sans";
+  font-size: 16px;
+}
